@@ -1,0 +1,35 @@
+/* Geral */ 
+
+body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navba */
+
+#navbar {
+    background-color: black;
+    color: #FFF;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+}
