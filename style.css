@@ -68,12 +68,6 @@ h2 {
     background-size: cover;
 }
 
-#banner-info {
-    display: flex;
-    color: #FFF;
-    padding-top: 150px;
-}
-
 .logo-img {
     width: 50px;
 }
@@ -82,10 +76,7 @@ h2 {
     width: 390px;
 }
 
-.parte-1 {
-    width: 50%;
-}
-
-.div-imgperfil {
-   width: 50%;
+#banner-info {
+    display: flex;
+    justify-content: center;
 }
