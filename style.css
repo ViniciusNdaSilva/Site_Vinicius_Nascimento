@@ -17,6 +17,9 @@ h2 {
     color: #FFF;
     padding: 0 15px;
     height: 60px;
+    width: 100%;
+    position: fixed;
+    
 }
 
 #navbar h2, #navbar ul, #navbar-list li, #navbar nav {
@@ -44,6 +47,11 @@ h2 {
 
 #navbar li {
     margin-left: 10px;
+    
+}
+
+.ultimo-nav {
+    margin-right: 50px;
 }
 
 #navbar-list li a {
@@ -62,12 +70,17 @@ h2 {
     padding: 10px;
 }
 
+body {
+    background-image: url(Imagens/imagem-background.png);
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
 /* banner */
 #main-banner {
     height: 100vh;
     width: 100vw;
-    background-image: url(Imagens/imagem-background.png);
-    background-size: cover;
+    
 }
 
 .logo-img {
