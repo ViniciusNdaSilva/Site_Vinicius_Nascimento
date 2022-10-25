@@ -18,7 +18,7 @@ h2 {
     height: 60px;
 }
 
-#navbar h2, #navbar ul, #navbar-list li {
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
     display: inline-block;
 }
 
@@ -29,7 +29,63 @@ h2 {
 }
 
 #navbar img {
-    height: 50px;
-    position: absolute;
-    top: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin-left: 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar-list li a:hover {
+    background-color: #1C5DA7;
+    border-radius: 5px;
+}
+
+#navbar a {
+    padding: 10px;
+}
+
+/* banner */
+#main-banner {
+    height: 100vh;
+    background-image: url(Imagens/imagem-background.png);
+    background-size: cover;
+}
+
+#banner-info {
+    display: flex;
+    color: #FFF;
+    padding-top: 150px;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+.img-perfil {
+    width: 390px;
+}
+
+.parte-1 {
+    width: 50%;
+}
+
+.div-imgperfil {
+   width: 50%;
 }
