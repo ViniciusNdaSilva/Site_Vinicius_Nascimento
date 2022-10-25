@@ -99,4 +99,7 @@ h2 {
     box-shadow: #000000;
 }
 
+.parte-1 h2, .parte-1 h1 {
+    text-shadow: 0.1em 0.1em #333
+}
 
