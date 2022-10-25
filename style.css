@@ -2,7 +2,7 @@
 
 body, p, h1, h2, input, textarea {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 
 h2 {
@@ -67,10 +67,12 @@ h2 {
     height: 100vh;
     width: 100vw;
     background-image: url(Imagens/imagem-background.png);
+    background-size: cover;
 }
 
 .logo-img {
    width: 60px;
+   margin: 40px 15px;
 }
 
 .img-perfil {
@@ -83,6 +85,18 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.parte-1 {
+    color: #FFF;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.text-prof {
+    font-weight: 100;
+    margin-top: 10px;
+    box-shadow: #000000;
 }
 
 
