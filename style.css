@@ -125,3 +125,67 @@ body {
     bottom: 15px;
     box-shadow: 3px 3px 10px #333;
 }
+
+/* about inicio */ 
+
+#about-section {
+    margin-bottom: 50px;
+}
+
+#about-section h1 {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.container-about {
+    background-color: #FFF;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.icon-about {
+    width: 50px;
+    margin: 0 50px 50px 50px;
+}
+
+.about-eu {
+    padding: 50px;
+    text-align: justify;
+    font-size: larger;
+}
+
+.banner-about {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-about {
+    color: #1C5DA7;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.descricao-about {
+    margin-right: 20px;
+    font-size: large;
+}
+
+.banner-tecnologias {
+    
+    width: 1000px;
+    padding: 10px;
+    
+}
+
+.container-tecnologias {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
