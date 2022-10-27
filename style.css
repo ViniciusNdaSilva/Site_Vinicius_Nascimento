@@ -72,7 +72,7 @@ h2 {
 body {
     background-image: url(Imagens/imagem-background.png);
     background-size: cover;
-    background-attachment:fixed ;
+    background-attachment:fixed;
 }
 
 /* banner */
@@ -193,7 +193,6 @@ body {
 .titulo-job {
     text-align: center;
     color: #FFF;
-    margin: 50px 0px 50px 0px;
     text-shadow: 0.1em 0.1em #333;
     font-size: 30px;
 }
@@ -204,8 +203,4 @@ body {
     align-items: center;
     justify-content: center;
     margin: 200px;
-}
-
-.box-job {
-    background-image: url();
 }
