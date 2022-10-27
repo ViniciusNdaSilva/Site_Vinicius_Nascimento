@@ -204,3 +204,12 @@ body {
     justify-content: center;
     margin: 200px;
 }
+
+/* Contato */ 
+
+.form-cont {
+    display: flex;
+    background-color: #1C5DA7;
+    border-radius: 20px;
+}
+
