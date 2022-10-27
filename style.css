@@ -205,6 +205,12 @@ body {
     margin: 200px;
 }
 
+.box-job {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 /* Contato */ 
 
 .form-cont {
