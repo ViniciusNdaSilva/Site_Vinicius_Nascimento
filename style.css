@@ -190,6 +190,10 @@ body {
 
 /* Jobs */
 
+#jobs-section {
+    margin-top: 200px;
+}
+
 .titulo-job {
     text-align: center;
     color: #FFF;
@@ -202,20 +206,175 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 200px;
+    margin: 50px 0 200px 0;
 }
 
 .box-job {
+    display: flex;
+    align-items: center;
     background-color: #FFF;
     border-radius: 20px;
     padding: 20px;
+    margin: 20px 150px 20px 150px;
+}
+
+.destaque-job {
+    color: #1C5DA7;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.texto-job p {
+    font-size: 20px;
+    padding-left: 10px;
+    font: 'roboto';
+
 }
 
 /* Contato */ 
 
-.form-cont {
-    display: flex;
+.container-form {
     background-color: #1C5DA7;
     border-radius: 20px;
+    padding: 50px;
+    margin: 200px;
+
+}
+
+.titulo-contato {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em #333;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.text-contato {
+    margin-bottom: 100px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: lighter;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+
+footer {
+    height: 30px;
+    background-color: #1C5DA7;
+    text-align: center;
+}
+
+footer p {
+    font: roboto;
+    font-size: 20px;
+    
+    color: #FFF;
+}
+
+.detail {
+    font-weight: bold;
+}
+
+/* responsivo celulares */ 
+
+@media(max-width: 450px) {
+    
+    /* Geral */ 
+
+    p, input, textarea {
+        font-size: 1.2rem;
+    }
+
+    /* navbar */
+
+    #navbar img {
+        width: 150px;
+    }
+
+    #navbar li {
+        margin-left: 0;
+    } 
+
+    .ultimo-nav { 
+        margin-right: 0;
+    }
+
+    #navbar-list li a {
+        font-size: 12px;
+    }
+
+    #navbar-list {
+        padding: 0;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    /* banner */
+
+    #banner-info {
+        display: inline;
+    }
+
+    .parte-1 h1 {
+        font-size: 20px;
+    }
+
+    .parte-1 h2 {
+        font-size: 15px;
+    }
+
+    .parte-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-img {
+        width: 50px;
+    }
+
+    .div-imgperfil {
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+    .img-perfil {
+        width: 250px;
+    }
+
+    /* Jobs */
+
+    .banner-tecnologias {
+        width: 150px;
+        margin: 0;
+    }
+
+    /* Formulario */
+
+    .container-form, form, input, textarea {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
