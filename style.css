@@ -1,5 +1,9 @@
 /* Geral */ 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, p, h1, h2, input, textarea {
     margin: 0;
     font-family: 'Roboto';
@@ -299,14 +303,26 @@ footer p {
     
     /* Geral */ 
 
+    body {
+       width: 450px; 
+    }
+
     p, input, textarea {
         font-size: 1.2rem;
+    }
+
+    /* Header */
+
+    #navbar {
+        padding: 0;
     }
 
     /* navbar */
 
     #navbar img {
         width: 150px;
+        padding-top: 8px;
+        padding-left: 10px;
     }
 
     #navbar li {
@@ -330,6 +346,10 @@ footer p {
     }
 
     /* banner */
+
+    #main-banner {
+        width: 450px;
+    }
 
     #banner-info {
         display: inline;
@@ -361,23 +381,115 @@ footer p {
         width: 250px;
     }
 
-    /* Jobs */
+    /* About */
+
+    .banner-about {
+        margin-bottom: 20px;
+    }
+
+    #about-section h1 {
+        font-size: 20px;
+    }
+
+    .container-about {
+        margin: 30px;
+    }
+
+    .about-eu {
+        padding: 25px;
+    }
+
+    .about-eu li {
+        font-size: 12px;
+    }
+
+    .icon-about {
+        margin: 0 30px 0 15px;
+    }
+
+    .titulo-about {
+        font-size: 15px;
+    }
+
+    .descricao-about {
+        font-size: 12px;
+    }
 
     .banner-tecnologias {
         width: 150px;
         margin: 0;
     }
 
+     /* Jobs */
+
+     #jobs-section h1 {
+        font-size: 20px;
+     }
+
+     .box-job {
+        margin: 25px;
+     }
+    
+     .box-job img {
+        width: 100px;
+     }
+
+     .texto-job p {
+        font-size: 12px;
+     }
+
     /* Formulario */
 
-    .container-form, form, input, textarea {
-        width: 300px;
+    .container-form {
+        background-color: #1C5DA7;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 15px;
+    
+    }
+    
+    .titulo-contato {
+        font-size: 20px;
+    }
+    
+    .text-contato {
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    
+    form {
+        width: 250px;
         margin-left: auto;
         margin-right: auto;
     }
+    
+    input, textarea {
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 20px;
+        display: block;
+    }
+    
+    
+    footer {
+        margin-top: 100px;
+        height: 30px;
+        background-color: #1C5DA7;
+        text-align: center;
+    }
+    
+    footer p {
+        padding-top: 5px;
+        font: roboto;
+        font-size: 15px;
+        color: #FFF;
+    }
 
-    .titulo-about1 {
-        font-size: 10px;
+    section {
+        min-height: 100vh;
     }
 
 }
