@@ -299,12 +299,12 @@ footer p {
 
 /* responsivo celulares */ 
 
-@media(max-width: 450px) {
+@media(max-width: 475px) {
     
     /* Geral */ 
 
     body {
-       width: 100%; 
+       width: 450px; 
     }
 
     p, input, textarea {
