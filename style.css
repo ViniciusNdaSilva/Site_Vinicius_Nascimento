@@ -133,6 +133,7 @@ body {
 
 #about-section {
     margin-bottom: 50px;
+    line-height: 1.7;
 }
 
 #about-section h1 {
@@ -156,14 +157,21 @@ body {
 }
 
 .about-eu {
-    padding: 50px;
+    padding: 50px 50px 50px 150px;
     text-align: justify;
     font-size: larger;
+    
+}
+
+.about-eu-1 {
+    margin-bottom: 15px;
 }
 
 .banner-about {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
+
 }
 
 .titulo-about {
