@@ -182,7 +182,7 @@ body {
 }
 
 .banner-tecnologias {
-    width: 1000px;
+    width: 500px;
     padding: 10px;
 }
 
@@ -193,6 +193,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-bottom: 30px;
 }
 
 /* Jobs */
