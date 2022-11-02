@@ -241,12 +241,8 @@ body {
 
 /* Contato */ 
 
-.container-form {
-    background-color: #1C5DA7;
-    border-radius: 20px;
-    padding: 50px;
-    margin: 200px;
-
+#contato-section {
+    margin-bottom: 70px;
 }
 
 .titulo-contato {
@@ -258,7 +254,7 @@ body {
 }
 
 .text-contato {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: #FFF;
     font-size: 20px;
     font-weight: lighter;
@@ -267,22 +263,37 @@ body {
     margin-top: 10px;
 }
 
-form {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+.container-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-input, textarea {
-    border: none;
-    padding: 15px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    width: 100%;
+.banner-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
     border-radius: 20px;
-    display: block;
+    margin-bottom: 25px;
+    width: 175px;
+    height: 70px;
 }
 
+.banner-contato img {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.banner-contato a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* rodapé */
 
 footer {
     height: 30px;
@@ -293,12 +304,14 @@ footer {
 footer p {
     font: roboto;
     font-size: 20px;
-    
     color: #FFF;
+    padding-top: 5px;
 }
 
 .detail {
     font-weight: bold;
 }
+
+
 
 /* responsivo celulares */
