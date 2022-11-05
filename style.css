@@ -31,8 +31,9 @@ body, p, h1, h2, input, textarea {
 }
 
 #navbar img {
-    width: 200px;
-    margin-top: 10px;
+    width: 150px;
+    margin-top: 15px;
+    padding-left: 40px;
 }
 
 #navbar nav {
@@ -319,6 +320,129 @@ footer p {
 @media(max-width: 450px) {
     
     /* Geral */
+
+    #navbar nav {
+        float: none;
+    }
+
+    #navbar {
+        width: 
+        height: 50px;
+    }
+    
+    #navbar-list li a { 
+        font-size: 15px;
+    }
+
+    #navbar img {
+        padding-left: 0px;
+        width: 100px;
+    }
+
+    #navbar ul {
+        padding: 0px;
+        margin: 15px 0px 5px 0px;
+    }
+
+    #navbar-list li {
+        margin: 0px;
+    }
+
+    #navbar a { 
+        padding: 5px 10px 5px 10px;
+    }
+
+    /* Main banner */
+
+    #banner-info {
+        display: inline;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .parte-1 {
+        margin-top: 100px;
+    }
+
+    .logo-img {
+        width: 40px;
+        margin: 40px 10px;
+    }
+
+    .img-perfil {
+        width: 230px;
+    }
+
+    .div-imgperfil {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* About */
+
+    #about-section h1 {
+        margin-bottom: 50px;
+        font-size: 1.2em;
+    }
+
+    .container-about {
+        background-color: #FFF;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+    }
+
+    .about-eu {
+        padding: 30px;
+        text-align: justify;
+        font-size: 0.8em;
+    }
+
+    .icon-about {
+        width: 35px;
+        margin: 20px;
+    }
+
+    .descricao-about {
+        font-size: 0.8em;
+    }
+
+    .banner-tecnologias {
+        width: 250px;
+        padding: 10px;
+    }
+    
+
+    /* contato */
+
+    .titulo-contato {
+        font-size: 1.2em;
+    }
+
+    .text-contato {
+        font-size: 1.0em;
+        padding: 10px;
+    }
+
+    /* footer */
+    
+    footer p {
+        font-size: 10px;
+    }
+
+    #link-topo {
+        display: none;
+    }
+
+
+
 
     
 } 
