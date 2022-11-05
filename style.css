@@ -316,6 +316,9 @@ footer p {
 
 /* responsivo celulares */
 
-@mediaquery  {
+@media(max-width: 450px) {
+    
+    /* Geral */
 
+    
 } 
