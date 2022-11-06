@@ -17,7 +17,6 @@ body, p, h1, h2, input, textarea {
     padding: 0 15px;
     height: 60px;
     width: 100%;
-    
 }
 
 #navbar h2, #navbar ul, #navbar-list li, #navbar nav {
@@ -46,7 +45,6 @@ body, p, h1, h2, input, textarea {
 
 #navbar li {
     margin-left: 10px;
-    
 }
 
 .ultimo-nav {
@@ -156,7 +154,6 @@ body {
     padding: 50px 50px 50px 150px;
     text-align: justify;
     font-size: larger;
-    
 }
 
 .about-eu-1 {
@@ -167,7 +164,6 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-
 }
 
 .titulo-about {
@@ -237,7 +233,6 @@ body {
     font-size: 20px;
     padding-left: 10px;
     font: 'roboto';
-
 }
 
 /* Contato */ 
@@ -273,7 +268,7 @@ body {
 .banner-contato {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #FFF;
     border-radius: 20px;
     margin-bottom: 25px;
@@ -283,7 +278,7 @@ body {
 
 .banner-contato img {
     width: 40px;
-    padding-right: 15px;
+    padding-left: 5px;
 }
 
 .banner-contato a {
@@ -292,7 +287,6 @@ body {
     font-size: 15px;
     font-weight: bolder;
 }
-
 
 /* rodapé */
 
@@ -312,7 +306,6 @@ footer p {
 .detail {
     font-weight: bold;
 }
-
 
 
 /* responsivo celulares */
