@@ -430,6 +430,19 @@ footer p {
         font-size: 1.0em;
         padding: 10px;
     }
+    
+    .banner-contato {
+        width: 118px;
+        height: 45px;
+    }
+
+    .banner-contato a {
+        font-size: 11px;
+    }
+
+    .banner-contato img {
+        width: 29px;
+    }
 
     /* footer */
     
