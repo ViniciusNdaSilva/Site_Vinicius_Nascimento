@@ -326,8 +326,7 @@ footer p {
     }
 
     #navbar {
-        width: 
-        height: 50px;
+        padding: 0px;
     }
     
     #navbar-list li a { 
@@ -335,7 +334,8 @@ footer p {
     }
 
     #navbar img {
-        padding-left: 0px;
+        padding-left: 10px;
+        padding-right: 50px;
         width: 100px;
     }
 
