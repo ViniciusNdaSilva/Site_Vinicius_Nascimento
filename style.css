@@ -204,6 +204,7 @@ body {
     color: #FFF;
     text-shadow: 0.1em 0.1em #333;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .container-job {
@@ -211,33 +212,39 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 0 200px 0;
 }
 
 .box-job {
-    display: flex;
-    align-items: center;
-    background-color: #FFF;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px 150px 20px 150px;
+    margin: 50px 0px 50px 0px;
 }
 
-.destaque-job {
-    color: #1C5DA7;
-    font-weight: bold;
+.box-job img {
+    width: 550px;
+}
+
+.texto-job {
+    text-align: center;
+    margin: 20px;
+}
+
+.texto-job a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #FFF;
     padding: 10px;
+    font-size: 20px;
 }
 
-.texto-job p {
-    font-size: 20px;
-    padding-left: 10px;
-    font: 'roboto';
+.texto-job a:hover {
+    background-color: #FFF;
+    color:  #000000;
+    border-radius: 20px;
 }
 
 /* Contato */ 
 
 #contato-section {
+    margin-top: 120px;
     margin-bottom: 70px;
 }
 
@@ -410,6 +417,17 @@ footer p {
     .banner-tecnologias {
         width: 250px;
         padding: 10px;
+    }
+
+    /* jOBS */
+
+    .titulo-job {
+        text-shadow: 0.1em 0.1em #333;
+        font-size: 1.2em;
+    }
+
+    .box-job img {
+        width: 300px;
     }
     
 
