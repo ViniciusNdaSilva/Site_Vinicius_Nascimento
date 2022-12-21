@@ -13,6 +13,14 @@ body {
   color: #272829;
 }
 
+.icon-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+} 
+
 a {
   color: #149ddd;
   text-decoration: none;
